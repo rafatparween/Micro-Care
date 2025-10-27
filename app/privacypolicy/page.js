@@ -159,7 +159,7 @@ const PrivacyPolicy = () => {
                     <div className="space-y-3">
                       <div className="flex items-center">
                         <Email className="mr-3 text-[#59c7b5]" />
-                        <span>support@eztechprintersolutions.com</span>
+                        <span>.comsupport@microhubcare.com</span>
                       </div>
                       <div className="flex items-center">
                         <Business className="mr-3 text-[#59c7b5]" />
@@ -397,7 +397,7 @@ const privacyPolicyContent = [
     sectionTitle: 'Contact Us',
     content: [
       'If you have any questions about this Privacy Policy, You can contact us:',
-      '- By email: support@eztechprintersolutions.com',
+      '- By email: support@microhubcare.com.com',
     ],
   },
 ];
