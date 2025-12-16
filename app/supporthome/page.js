@@ -62,13 +62,13 @@ export default function SupportHome() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-blue-50 text-gray-800">
       <Head>
-        <title>Support | Micro Hub Care</title>
+        <title>Support | EzTech-Printer-Solutions</title>
       </Head>
 
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 text-white py-24 text-center">
+      <div className="relative text-white py-24 text-center" style={{ background: "linear-gradient(to right, #59c7b5, #0095d4)" }}>
         <h1 className="text-5xl font-bold mb-6 drop-shadow-lg">We’re Here to Help You</h1>
-        <p className="text-lg mb-10 opacity-90 max-w-2xl mx-auto">
+        <p className="text-lg mb-10 opacity-90 max-w-4xl mx-auto">
           Get expert assistance, step-by-step guides, and instant support anytime.
         </p>
 
@@ -77,7 +77,7 @@ export default function SupportHome() {
           <input
             type="text"
             placeholder="Search help articles, FAQs, or guides..."
-            className="w-full px-6 py-4 rounded-full text-gray-900 focus:outline-none shadow-lg focus:ring-4 focus:ring-blue-400"
+            className="text-white w-full px-6 py-4 rounded-full text-gray-900 focus:outline-none shadow-lg focus:ring-4 focus:ring-blue-400"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -99,7 +99,7 @@ export default function SupportHome() {
           </div>
           <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition">
             <h3 className="text-3xl font-bold text-indigo-600"></h3>
-            <p className="text-gray-600">Support Availability</p>
+            <p className="text-gray-600"> Available Support</p>
           </div>
           <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition">
             <h3 className="text-3xl font-bold text-purple-600">1.2M+</h3>
@@ -176,10 +176,10 @@ export default function SupportHome() {
         </div>
 
         {/* Community CTA */}
-        <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white rounded-2xl py-16 text-center shadow-xl">
+        <section className=" text-white rounded-2xl py-16 text-center shadow-xl" style={{ background: "linear-gradient(to right, #59c7b5, #0095d4)" }}>
           <div className="max-w-3xl mx-auto">
             <FiUsers className="w-14 h-14 mx-auto mb-4 text-white/80" />
-            <h2 className="text-3xl font-bold mb-2">Join the Micro Hub Care Community</h2>
+            <h2 className="text-3xl font-bold mb-2">Join the EzTech-Printer-Solutions Community</h2>
             <p className="text-blue-100 mb-6">Ask, learn, and grow with others just like you.</p>
             <button className="bg-white text-blue-700 font-medium px-6 py-3 rounded-full shadow hover:scale-105 transition">
               Visit Community
@@ -189,9 +189,7 @@ export default function SupportHome() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 text-center py-8 mt-16">
-        <p>© {new Date().getFullYear()} Micro Hub Care. All rights reserved.</p>
-      </footer>
+      
     </div>
   );
 }

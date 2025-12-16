@@ -138,7 +138,7 @@
     {
         id: 9,
         name: "HP Neverstop Laser 1001nw Wireless Printer",
-        description: "The laser printer reimagined. No more toner cartridges! Just add HP's unique toner powder and enjoy up to 5,000 pages from a single purchase.",
+        description: "The laser printer reimagined. No more toner cartridges! Just add unique toner powder and enjoy up to 5,000 pages from a single purchase.",
         features: [
         "Tank-Based Laser System",
         "Up to 5,000 Pages per Refill",

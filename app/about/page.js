@@ -31,7 +31,7 @@ export default function AboutPage() {
               About <span className="bg-gradient-to-r from-[#59c7b5] to-[#0095d4] bg-clip-text text-transparent">Us</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Your trusted partner in technology solutions since 2022
+              Your trusted partner in technology solutions January 2024
             </p>
           </div>
 
@@ -62,10 +62,10 @@ export default function AboutPage() {
               </div>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  <strong> Micro Hub Care</strong> is a U.S.-registered information-technology company that provides expert assistance for computers, printers, and connected devices.
+                  <strong>Micro Hub Care </strong> is a U.S.-registered information-technology company that provides expert assistance for computers, printers, and connected devices.
                 </p>
                 <p>
-                  Since 2022, we've helped customers nationwide through reliable technical support, clear communication, and step-by-step learning resources.
+                 January 2024, we've helped customers nationwide through reliable technical support, clear communication, and step-by-step learning resources.
                 </p>
                 <p className="bg-gradient-to-r from-[#59c7b5]/10 to-[#0095d4]/10 p-6 rounded-2xl border-l-4 border-[#59c7b5]">
                   With thousands of devices repaired and serviced, we've built our reputation around honesty, expertise, and long-term relationships with customers who value quality service.
@@ -164,7 +164,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Registered Name</div>
-                      <div className="text-gray-600"></div>
+                      <div className="text-gray-600">Micro Hub Care </div>
                     </div>
                   </div>
 
@@ -174,7 +174,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Established</div>
-                      <div className="text-gray-600">2022</div>
+                      <div className="text-gray-600">2024</div>
                     </div>
                   </div>
 
@@ -210,7 +210,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Phone</div>
-                      <div className="text-gray-600">+(1) 888-291-3869</div>
+                      <div className="text-gray-600">[(844) 491-5152]</div>
                     </div>
                   </div>
 
@@ -220,7 +220,8 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Address</div>
-                      <div className="text-gray-600">[Your Business Address]</div>
+                      <div className="text-gray-600">[8457 Burnet Avenue Unit 9 
+North Hills , CA 91343]</div>
                     </div>
                   </div>
 
@@ -230,7 +231,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Hours</div>
-                      <div className="text-gray-600">24/7 Remote Assistance</div>
+                      <div className="text-gray-600">Remote Assistance</div>
                     </div>
                   </div>
                 </div>

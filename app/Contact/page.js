@@ -81,7 +81,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-bold text-lg">Call Us</h3>
-                      <p className="text-white/80">+(1) 888-291-3869</p>
+                      <p className="text-white/80">(844) 491-5152</p>
                     </div>
                   </div>
 
@@ -257,7 +257,7 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Call Us Directly</h3>
               <p className="text-gray-600 mb-4">Speak with our support team immediately</p>
-              <p className="text-2xl font-bold text-[#0095d4]">+(1) 888-291-3869</p>
+              <p className="text-2xl font-bold text-[#0095d4]">(844) 491-5152</p>
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center group hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">

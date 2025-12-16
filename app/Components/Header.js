@@ -135,7 +135,6 @@
 
 
 
-
 "use client";
 import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
@@ -157,8 +156,8 @@ export default function Header() {
   return (
     <div className="flex flex-col items-center w-full">
       {/* Navigation Bar */}
-      <nav className="bg-gradient-to-b from-gray-900 to-black border-b border-gray-800 text-white w-full">
-        <div className="max-w-[96.99%]  px-4 sm:px-6 lg:px-8">
+      <nav className=" text-white w-full"style={{ background: "linear-gradient(to right, #59c7b5, #0095d4)" }}>
+        <div className="max-w-[98.99%]  px-4 sm:px-6 lg:px-8">
           <div className="max-w-[1280px] mx-auto flex justify-between items-center h-16">
             {/* Mobile menu button */}
             <button
@@ -166,6 +165,7 @@ export default function Header() {
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle menu"
             >
+
               <FiMenu />
             </button>
 
